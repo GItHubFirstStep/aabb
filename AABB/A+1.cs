@@ -10,17 +10,11 @@ using System.Windows.Forms;
 
 namespace AABB
 {
-    public partial class Form1 : Form
+    public partial class A_1 : Form
     {
-        public Form1()
+        public A_1()
         {
             InitializeComponent();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            A_1 A = new A_1();
-            A.Show();
         }
     }
 }
